@@ -28,7 +28,8 @@ b    { return B; }  // Recognize 'b' as token B
 int yywrap() {
     return 1;
 }
-
+```
+```c++
 GRAMMAR.y
 %{
 #include <stdio.h>
